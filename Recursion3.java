@@ -103,6 +103,7 @@ public class Recursion3 {
         a[si] = temp;
         int i = si;
         int j = ei;
+        //end cross start point
         while (i < j) {
             if (a[i] < pivotElement) {
                 i++;
